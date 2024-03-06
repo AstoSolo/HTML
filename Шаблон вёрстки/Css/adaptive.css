@@ -1,0 +1,43 @@
+@media screen and (max-width: 910px) {
+    nav ul li a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav ul li a {
+        font-size: 15px;
+        flex-direction: column;
+    }
+}
+
+
+
+@media screen and (max-width: 730px) {
+
+    nav,
+    .auth {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-right: 20px ;
+      }
+}
+
+@media screen and (max-width: 480px) {
+
+    nav,
+    .auth {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 100px) {
+    .button {
+        display: none;
+    }
+}

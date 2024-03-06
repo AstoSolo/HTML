@@ -24,8 +24,8 @@ li {
 
 .container {
   max-width: 1400px;
-  padding: 0 100px;
-  margin: 0 auto;
+  padding: 0 20px;
+  margin:0 auto;
 }
 
 .header__top {
@@ -61,4 +61,17 @@ nav ul li a {
   border-radius: 15px;
   padding: 25px;
   margin-right: 30px;
+}
+
+.burger {
+  /* display: flex;
+  flex-direction: column;
+  gap: 10px; */
+  display: none;
+}
+
+.span {
+  width: 20px;
+  height: 2px;
+  background-color: #414160;
 }
